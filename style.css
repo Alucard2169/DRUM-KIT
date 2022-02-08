@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+    font-family: 'Rowdies', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url("./2049479.jpg") no-repeat top;
+    background-size: cover;
+}
+
+.keys {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.key {
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background: rgb(33, 192, 255);
+    color: black;
+    width: 5.5rem;
+    height: 5rem;
+    transition: all 100ms ease-in-out;
+}
+
+.playing {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px black;
+    background: white;
+    color: rgb(235, 30, 30);
+}
